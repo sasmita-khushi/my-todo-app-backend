@@ -1,0 +1,16 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/health/db
+
+###
+
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "sasmita@apple.com",
+  "password": "123456789"
+}
